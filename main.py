@@ -7,9 +7,9 @@ from langchain.agents import Tool, initialize_agent
 from langchain.agents.agent_types import AgentType
 
 
-st.set_page_config(page_title="🩺 Medical AI Chatbot", page_icon="💊")
+st.set_page_config(page_title=" Medical AI Chatbot", page_icon="🩺")
 st.title("🧠 AI Medical Advisor")
-st.markdown("Ask any health-related question. The bot uses PDFs + Web + LLaMA 3 💬")
+st.markdown("Ask any health-related question.")
 
 
 @st.cache_resource
